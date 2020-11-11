@@ -7,6 +7,14 @@
 	$enlace = new mysqli($servidor, $usuario, $clave, $nombre_bd);
     $GLOBALS['enlace'] = $enlace;
  
+
+    //smtp
+	$GLOBALS['smtp_host'] = "smtp.mailtrap.io";
+	$GLOBALS['smtp_user'] = "ddee0897e73e83";
+	$GLOBALS['smtp_pass'] = "fcf90e4c4cdd7e";
+    $GLOBALS['smtp_port'] = 2525;
+    
+
     if (!$enlace) {
         echo "Error: No se pudo conectar a la base de datos.";
         //echo "errno de depuración: " . mysqli_connect_errno() . PHP_EOL;

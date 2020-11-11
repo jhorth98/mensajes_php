@@ -1,3 +1,37 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@jhorth98 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+santiaguf
+/
+mensajes_php
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+mensajes_php/registro.php /
+@santiaguf
+santiaguf Prueba Sql inyection
+Latest commit 39c8176 22 hours ago
+ History
+ 1 contributor
+140 lines (117 sloc)  4.62 KB
+  
 <?php
 
 include 'conexion.php';
@@ -138,3 +172,15 @@ if (isset($_POST['enviar'])) {
 		</script>
 	</body>
 </html>
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
