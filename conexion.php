@@ -21,5 +21,7 @@
         //echo "error de depuración: " . mysqli_connect_error() . PHP_EOL;
     }else{
         //echo "Conexión exitosa"; 
-	}
+    }
+    session_start();
+    
 ?>
