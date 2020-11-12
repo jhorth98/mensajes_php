@@ -117,7 +117,7 @@ if (isset($_POST['enviar'])) {
 				<div class="col-md-3"></div>
 				<div class="col-md-6">
 					<div>
-						<p>Si tienes una cuenta creada, inicia sesión, de lo contrario, puedes <a href="registro.php">registrarte</a> <br>
+						<p>Si tienes una cuenta creada, <a href="login.php">inicia sesión,</a> de lo contrario, puedes <a href="registro.php">registrarte</a> <br>
 					</div>
 					<form name="login" action="" method="POST">
 					  	<div class="form-group">

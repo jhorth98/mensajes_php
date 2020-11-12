@@ -26,8 +26,6 @@ if (isset($_POST['enviar'])) {
 	$conexion = $GLOBALS['enlace'];
 	$consulta = "INSERT INTO `mensaje` (`texto_mensaje`, `id_usuario`) VALUES ('$mensajeLimpio', '$id_usuario')";
 
-
-
 	$ejecutarConsulta = $conexion->query($consulta);
 
 
